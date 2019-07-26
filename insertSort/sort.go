@@ -1,5 +1,9 @@
 package sort
 
+/**
+在要排序的一切片中，假设前面的元素已经是排好顺序的，现在要把第n个元素插到前面的有序切片中，使得这n个元素也是排好顺序的。
+如此反复循环，直到全部排好顺序。
+*/
 func insertSort(sli []int) []int {
 	length := len(sli)
 
