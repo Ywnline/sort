@@ -8,6 +8,7 @@ import "sort"
 */
 func QuickSort(sli []int) []int {
 
+
 	//判断是否有必要进行排序
 	length := len(sli)
 	if length <= 1 {

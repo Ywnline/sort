@@ -6,6 +6,7 @@ package sort
 */
 func bubbleSort(sli []int) []int {
 
+
 	// 判断是否有排序必要
 	length := len(sli)
 	if length <= 0 {
